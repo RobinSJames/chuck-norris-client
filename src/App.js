@@ -1,12 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
+import { ApolloProvider } from 'react-apollo'
 import './App.css';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    // <ApolloProvider client={client}></ApolloProvider>
+    <div className="App font-sans">
+      <header className="text-5xl pt-20">
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
